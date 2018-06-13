@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="database">
+  <database-model serializer="dbm" rdbms="HSQLDB" format-version="4.0">
+    <root id="1"/>
+    <database id="2" parent="1" name="PUBLIC">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <schema id="3" parent="2" name="INFORMATION_SCHEMA"/>
+    <schema id="4" parent="2" name="PUBLIC">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="5" parent="2" name="SYSTEM_LOBS"/>
+    <table id="6" parent="4" name="CUSTOMERS"/>
+    <table id="7" parent="4" name="ORDERING"/>
+    <column id="8" parent="6" name="ID_CUS">
+      <Position>1</Position>
+      <DataType>INTEGER(32)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="9" parent="6" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(45)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="10" parent="6" name="SURNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR(45)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="11" parent="6" name="PATRONYMIC">
+      <Position>4</Position>
+      <DataType>VARCHAR(70)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="12" parent="6" name="PHONE">
+      <Position>5</Position>
+      <DataType>VARCHAR(45)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="13" parent="6" name="SYS_PK_10092">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID_CUS</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="14" parent="7" name="ID_OR">
+      <Position>1</Position>
+      <DataType>INTEGER(32)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="15" parent="7" name="DESCRIPTION">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="16" parent="7" name="CUSTOMERS">
+      <Position>3</Position>
+      <DataType>VARCHAR(45)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="17" parent="7" name="CREATEDDATE">
+      <Position>4</Position>
+      <DataType>DATE(10)|91</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="18" parent="7" name="ENDDATE">
+      <Position>5</Position>
+      <DataType>DATE(10)|91</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="19" parent="7" name="COST">
+      <Position>6</Position>
+      <DataType>INTEGER(32)|4</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="20" parent="7" name="STATUS">
+      <Position>7</Position>
+      <DataType>VARCHAR(20)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="21" parent="7" name="SYS_PK_10104">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID_OR</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

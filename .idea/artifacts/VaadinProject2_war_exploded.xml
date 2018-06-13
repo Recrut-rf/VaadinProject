@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="VaadinProject2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/VaadinProject2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="VaadinProject2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="VaadinProject2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Vaadin Server" />
+          <element id="library" level="project" name="hsqldb" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

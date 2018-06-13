@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="base" uuid="2c610dcf-c99e-43e0-bac0-d43ff496e8d6">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:C:/Application/MyBase/base</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="database" uuid="7ea2bcda-c230-4a3d-b5c5-694b8dbec5bb">
+      <driver-ref>hsqldb.local</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
+      <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/../DataBase/VAADINBase/database</jdbc-url>
+    </data-source>
+  </component>
+</project>
